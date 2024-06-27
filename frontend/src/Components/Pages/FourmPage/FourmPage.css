@@ -1,0 +1,108 @@
+.fourmpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.fourmpage_heading {
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #fff;
+}
+.fourmpage_heading > span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.fourmpage_heading > span > a {
+  margin-right: 8px;
+  text-decoration: none;
+  color: #fff;
+}
+.fourmpage_heading > span > p {
+  margin-left: 8px;
+}
+.fourmpage_info {
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.fourmpage_info_left {
+  flex: 0.75;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.fourmpage_info_right {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.fourmpage_info_right>span{
+    width: 100%;
+    border-radius: 1px;
+   
+}
+.fourmpage_info_right>span>input{
+    width: 65%;
+    height: 35px;
+    padding-left: 10px;
+    border: transparent;
+    outline: transparent;
+    /* border: 1px solid #fff; */
+}
+.fourmpage_info_right>span>p{
+  width: 10%;
+}
+.fourmpage_info_right>span>button{
+    width: 25%;
+    height: 35px;
+    border: transparent;
+    outline: transparent;
+    background-color: #B7002B;
+    color: #fff;
+    cursor: pointer;
+}
+.fourmpage_info_right_div{
+    width: 100%;
+    margin-top: 25px;
+    border-left: 1px solid rgba(255, 255, 255, 0.40);
+}
+.fourmpage_info_right_div>span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.40);
+    color: #fff;
+    padding: 8px 0;
+    margin-bottom: 25px;
+}
+.fourmpage_info_right_div_list{
+    width: 100%;
+    color: #fff;
+}
+.fourmpage_info_right_div_list>ul>li{
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

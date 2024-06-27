@@ -1,0 +1,89 @@
+.span_button {
+  color: #b7002b;
+  background-color: #fff;
+  padding: 10px 12px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.membership_Container {
+  margin-top: 40px;
+  width: 90%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 5px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.membership_Container_left {
+  flex: 0.25;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: #fff;
+  gap: 5px;
+  margin-bottom: 85px;
+}
+.membership_Container_left > h5 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.membership_Container_left > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.membership_Container_right {
+  flex: 0.7;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.membership_Container_right_button_div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.membership_month_button {
+  border-radius: 3px;
+  background: rgba(217, 217, 217, 0.4);
+
+  width: 220px;
+  height: 55px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.membership_month_button_active {
+  border-radius: 3px;
+  background: #d9d9d9;
+  width: 220px;
+  height: 55px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #80011f;
+  font-weight: 600;
+  cursor: pointer;
+}
+.membership_Container_right_membershipcard {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}

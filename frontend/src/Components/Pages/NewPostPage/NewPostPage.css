@@ -1,0 +1,115 @@
+.fourmpage_info_left_heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
+}
+.fourmpage_info_left_heading > span {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 50px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.fourmpage_info_left_heading > span > p {
+  opacity: 0.8;
+}
+.fourmpage_info_left_guideline {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.fourmpage_info_left_guideline > p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.fourmpage_info_left_guideline > div {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+.fourmpage_info_left_guideline > div > p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.fourmpage_info_left_message {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fourmpage_info_left_message>form{
+    width: 100%;
+}
+.fourmpage_info_left_message_top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.fourmpage_info_left_message_top> span {
+  flex: 0.75;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.fourmpage_info_left_message_top> div {
+  flex: 0.15;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.fourmpage_info_left_message_top> div>p{
+  color: #fff;
+ font-size: 18px;
+ font-weight: 500;
+}
+.fourmpage_info_left_message_top> div>select{
+  margin-top: 10px;
+  color: #fff;
+  padding: 6px 8px;
+  background-color: #B7002B;
+  border: #B7002B;
+  outline: transparent;
+}
+.fourmpage_info_left_message_top > span>p{
+    margin-bottom: 10px;
+}
+.fourmpage_info_left_message_top > span>textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    outline: transparent;
+}
+.fourmpage_info_left_message_top > span>select{
+  color: #000;
+}
+.fourmpage_info_left_message_bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.fourmpage_info_left_message_bottom>button{
+    margin-right: 15px;
+    border-radius: 4px;
+    padding: 10px 12px;
+    border: transparent;
+    outline: transparent;
+    background-color: #B7002B;
+    color: #fff;
+    cursor: pointer;
+}

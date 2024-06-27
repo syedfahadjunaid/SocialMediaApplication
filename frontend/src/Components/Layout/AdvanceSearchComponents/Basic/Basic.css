@@ -1,0 +1,36 @@
+.basic {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.basic_div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  width: 350px;
+  margin-top: 30px;
+}
+.basic_div > p {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.basic_div > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.basic_div > span > input {
+  margin-right: 15px;
+}
+
+.basic_div > span > p{
+    font-size: 18px;
+    font-weight: 500;
+}

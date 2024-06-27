@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #80011f;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  z-index: 1111;
+}
+.navbar_left {
+  flex: 0.1;
+  color: #bcbcbc;
+}
+.navbar_center {
+  flex: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar_center > ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbar_center > ul > li {
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #bcbcbc;
+  font-size: 18px;
+  font-weight: 500;
+ 
+}
+.navbar_center > ul > li > a {
+  text-decoration: none;
+  color: #bcbcbc;
+  font-size: 18px;
+  font-weight: 500;
+}
+.navbar_right {
+  flex: 0.1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #bcbcbc;
+}
+.myprofile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.profile_myprofile_div{
+  position: absolute;
+  top: 100%;
+  width: 100px;
+  background-color: rgb(251, 245, 245);
+  color: hwb(346 0% 50%);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile_myprofile_div>span{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(251, 245, 245);
+  transform: rotate(45deg);
+  position: relative;
+  top: -6px;
+}
+.profile_myprofile_div>p{
+  font-size: 16px;
+  font-weight: 600;
+  color: #80011F;
+}
+.profile_myprofile:hover+.profile_myprofile_div{
+  display: flex;
+}

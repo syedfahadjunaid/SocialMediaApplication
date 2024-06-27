@@ -1,0 +1,24 @@
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
+}
+.location_top,.location_bottom{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.location_top>span,.location_bottom>span{
+    width: 40%;
+}
+.location_top>span>input ,.location_bottom>span>input{
+    width: 60%;
+    margin-top: 10px;
+    height: 45px;
+    padding-left: 10px;
+}

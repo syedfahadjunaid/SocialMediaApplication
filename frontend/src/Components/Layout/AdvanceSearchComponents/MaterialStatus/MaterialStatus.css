@@ -1,0 +1,26 @@
+.materialstatus{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.materialstatus>p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.materialstatus>span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+    
+}
+.materialstatus>span>input{
+    margin-right: 15px;
+}
+.materialstatus>span>p{
+    font-size: 18px;
+    font-weight: 500;
+}

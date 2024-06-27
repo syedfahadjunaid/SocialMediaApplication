@@ -1,0 +1,67 @@
+.newsletter {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  color: #fff;
+}
+.newsletter_heading {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  margin-bottom: 20px;
+}
+.newsletter_cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.newsletter_cards >form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.newsletter_cards >form> span {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.newsletter_cards >form> span > input {
+  flex: 0.4;
+  width: 100%;
+  border-radius: 5px;
+  background: rgba(217, 217, 217, 0.4);
+  height: 35px;
+  outline: transparent;
+  border: transparent;
+  padding-left: 5px;
+  color: #fff;
+}
+.newsletter_cards >form> span > input::placeholder{
+    color: #fff;
+}
+.newsletter_cards_button{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.newsletter_cards_button>button{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #B7002B;
+    color: #fff;
+    border: transparent;
+    outline: transparent;
+}

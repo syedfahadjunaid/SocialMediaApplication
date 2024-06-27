@@ -1,0 +1,25 @@
+
+
+.ChatComponent-section-upperCards::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .ChatComponent-section-upperCards::-webkit-scrollbar-track {
+    background: #D9D9D9;        /* color of the tracking area */
+  }
+  
+  .ChatComponent-section-upperCards::-webkit-scrollbar-thumb {
+    background-color: #80011F;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #D9D9D9;  /* creates padding around scroll thumb */
+  }
+
+  .ChatComponent-section-upperCards {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #C63054 #D9D9D9;   /* scroll thumb and track */ 
+  }
+
+  
+
+  
+  

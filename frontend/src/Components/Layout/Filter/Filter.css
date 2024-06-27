@@ -1,0 +1,99 @@
+.filter {
+  width: 100%;
+  height: 680px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.filter_heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.filter_heading > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filter_span {
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  /* background-color: #B7002B; */
+  cursor: pointer;
+}
+.filter_span_active{
+  margin-bottom: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background-color: #B7002B !important;
+  color: #fff;
+  cursor: pointer;
+}
+.filter_span > p {
+  color: #800020;
+  font-size: 20px;
+  font-weight: 500;
+}
+.filter_span_active>p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.filter_span_icon {
+  /* color: #800020; */
+  /* background-color: #24FF00; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #000;
+}
+.filter_span_icon_active{
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  background-color: #24FF00;
+  color: #000;
+}
+.filter_button {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+.filter_button > button {
+  margin-right: 20px;
+  padding: 10px 12px;
+  outline: transparent;
+  border: transparent;
+  background-color: #800020;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filter_button > button:hover {
+  background-color: #d05774;
+  color: #000;
+}

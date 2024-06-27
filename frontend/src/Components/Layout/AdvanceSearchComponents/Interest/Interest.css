@@ -1,0 +1,34 @@
+.interest{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+}
+.interest>p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.interest_div{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.interest_div>span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  width: 25%;
+  margin-bottom: 20px;
+}
+.interest_div>span>input{
+    margin-right: 15px;
+}
+.interest_div>span>p{
+    font-size: 18px;
+    font-weight: 500;
+}

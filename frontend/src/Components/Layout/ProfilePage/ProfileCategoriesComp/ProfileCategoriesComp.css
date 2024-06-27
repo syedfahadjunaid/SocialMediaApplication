@@ -1,0 +1,20 @@
+.ProfileCategoriesComp-section-lower > div {
+    width: 25%;
+    height: 400px;
+}
+.ProfileCategoriesComp-section-lower > div > img {
+    width: 100%;
+    height: 100%;
+}
+.ProfileCategoriesComp-section-profileCard {
+    border-radius: 6px;
+}
+.ProfileCategoriesComp-section-profileCard > img {
+    border-radius: 6px;
+}
+.ProfileCategoriesComp-section-profileVideoCard {
+    border-radius: 6px;
+}
+.ProfileCategoriesComp-section-profileVideoCard > img {
+    border-radius: 6px;
+}

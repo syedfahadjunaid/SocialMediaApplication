@@ -1,0 +1,7 @@
+.fourmpage_info_left_profilecard{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

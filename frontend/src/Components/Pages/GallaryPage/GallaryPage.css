@@ -1,0 +1,262 @@
+.galleryPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.galleryPage_profile_button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  margin-bottom: 30px;
+}
+.galleryPage_profile_button > button {
+  background-color: #b7002b;
+  color: #fff;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.galleryPage_title {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.galleryPage_title > p {
+  font-size: 22px;
+}
+.galleryPage_title > button {
+  padding: 8px 10px;
+  background-color: #b7002b;
+  color: #fff;
+  border-radius: 5px;
+}
+.galleryPage_images {
+  width: 90%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.galleryPage_friends_only_image {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(5px);
+
+  filter: blur(3px);
+  height: 375px;
+  width: 250px;
+  object-fit: contain;
+}
+.galleryPage_images_div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.galleryPage_images_div > div {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.privacy_icon {
+  color: #b7002b;
+  margin-bottom: 5px;
+  font-size: 35px !important;
+}
+.galleryPage_images_div > div > button {
+  padding: 8px 10px;
+  background-color: #b7002b;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.galleryPage_images_div > div > p {
+  color: #000;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.galleryPage_upload {
+  width: 90%;
+  height: 450px;
+  border-radius: 8px;
+  background: rgba(217, 217, 217, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+.galleryPage_upload_left {
+  flex: 0.3;
+  border: 4px dotted #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  color: #fff;
+}
+.galleryPage_upload_left > img {
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+.galleryPage_upload_left_p_first,
+.galleryPage_upload_left_p_last {
+  font-size: 18px;
+  font-weight: 500;
+}
+.galleryPage_upload_right {
+  flex: 0.65;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.img_span {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  position: relative;
+}
+.img_span > img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.img_span > p {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #b7002b;
+  position: absolute;
+  top: -7px;
+  right: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.galleryPage_upload_right_top {
+  flex: 0.65;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: scroll;
+  padding-top: 10px;
+  width: 100%;
+}
+.galleryPage_upload_right_top::-webkit-scrollbar {
+  display: none;
+}
+.galleryPage_upload_right_bottom {
+  flex: 0.3;
+  width: 100%;
+}
+.galleryPage_upload_right_bottom > select {
+  margin-bottom: 20px;
+  padding: 6px 8px;
+  outline: none;
+  border-radius: 5px;
+}
+.galleryPage_upload_right_bottom > div > button {
+  margin-right: 20px;
+  background-color: #b7002b;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 18px;
+}
+.galleryPage_upload_left_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.galleryPage_upload_left_div > span {
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.galleryPage_upload_left_p_last_last {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.galleryPage_upload_right_bottom_cancel {
+  background-color: #d9d9d9 !important;
+  color: #b7002b !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+.galleryPage_upload_right_bottom_upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  padding: 8px 10px;
+  font-size: 16px;
+  background-color: #b7002b !important;
+  color: #d9d9d9 !important;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.galleryPage_upload_right_bottom_upload > p,
+.galleryPage_upload_right_bottom_cancel > p {
+  margin-right: 4px;
+}
+.galleryPage_upload_left_p_last {
+  margin-top: 10px;
+  background-color: #3286ba;
+  color: #fff;
+  padding: 4px 6px;
+  border-radius: 5px;
+}
+.disable {
+  cursor: not-allowed;
+}
+.gallery_type {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.gallery_type > p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.gallery_type>select{
+  padding: 6px 8px;
+  border: transparent;
+  outline: transparent;
+  border-radius: 5px;
+}

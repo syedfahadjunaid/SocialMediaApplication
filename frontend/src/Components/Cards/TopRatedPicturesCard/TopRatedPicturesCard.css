@@ -1,0 +1,61 @@
+.topratedpicturescard {
+  width: 300px;
+  height: 400px;
+ position: relative;
+}
+.topratedpicturescard > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.topratedpicturescard_div{
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: -44px;
+  width: 50px;
+  height: 120px;
+  border-left: 4px solid rgba(217, 217, 217, 0.40);
+  border-top: 4px solid rgba(217, 217, 217, 0.40);
+  border-bottom: 4px solid rgba(217, 217, 217, 0.40);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+
+
+}
+.topratedpicturescard_div>span{
+  flex: 0.5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.topratedpicturescard_div>span>img{
+  height: 20px;
+  object-fit: cover;
+}
+.topratedpicturescard_div>span>p{
+  font-size: 12px;
+}
+.topratedpicturescard_div>span:first-child{
+  border-bottom: 2px solid rgba(217, 217, 217, 0.40);
+}
+.topratedpicturescard_div>span:last-child{
+  border-top: 2px solid rgba(217, 217, 217, 0.40);
+}
+.topratedpicturescard > span {
+  padding: 2px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.topratedpicturescard:hover > .topratedpicturescard_div{
+  display: flex;
+  transition: all 0.3s ease-in-out;
+}

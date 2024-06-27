@@ -1,0 +1,17 @@
+.fourmpage_heading_add_new_post {
+  padding: 10px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(1px);
+  cursor: pointer;
+}
+.fourmpage_heading_add_new_post > p {
+  margin-right: 20px;
+}
+.fourmpage_info{
+    margin-bottom: 30px;
+}

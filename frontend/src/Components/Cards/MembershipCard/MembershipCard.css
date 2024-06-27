@@ -1,0 +1,101 @@
+.membershipcard {
+  width: 35%;
+  height: 650px;
+  border-radius: 10px;
+  background: rgba(217, 217, 217, 0.4);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 5px;
+}
+.membershipcard > h5 {
+  color: #fff;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.membershipcard > span {
+  margin: 10px 0;
+  width: 100%;
+  background: #d9d9d9;
+  color: #80011f;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 0;
+}
+
+.ribbon {
+    width: 150px;
+   height: 150px;
+   overflow: hidden;
+   position: absolute;
+     top: -5px;
+   right: -5px;
+ 
+}
+.ribbon__content {
+   left: -25px;
+   top: 30px;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+   position: absolute;
+   display: block;
+   width: 225px;
+   padding: 5px 0;
+   background-color: #80011F;
+   /* box-shadow: 0 0px 10px ; */
+   color: #fff;
+   text-shadow: 0 1px 1px rgba(0,0,0,.2);
+   text-transform: uppercase;
+   text-align: center;
+   /* border: 2px dotted #fff; */
+   /* outline : 5px solid  #f5cd79; */
+
+ 
+}
+.ribbon::before {
+   top: 0;
+   left: 0;
+   border-top-color: transparent;
+   border-right-color: transparent;
+   position: absolute;
+   z-index: -1;
+   content: '';
+   display: block;
+   /* border: 5px solid #f19066; */
+   box-sizing: content-box;
+
+}
+.ribbon::after {
+   bottom: 0;
+   right: 0;
+   border-top-color: transparent;
+   border-right-color: transparent;
+   position: absolute;
+   z-index: -1;
+   content: '';
+   display: block;
+   /* border: 5px solid #f19066; */
+   
+}  
+.membershipcard_button{
+    width: 150px;
+    padding: 12px 15px;
+    margin-top: 10px;
+    background-color: #80011F;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}

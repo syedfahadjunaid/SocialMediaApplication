@@ -1,0 +1,28 @@
+.smoker {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.smoker>p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.smoker > span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.smoker > span > input {
+  margin-right: 15px;
+ 
+}
+.smoker > span >p{
+    font-size: 18px;
+    font-weight: 500;
+}

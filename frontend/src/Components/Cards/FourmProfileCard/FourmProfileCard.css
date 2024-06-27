@@ -1,0 +1,88 @@
+.fourmprofilecard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.50)    ;
+}
+.fourmprofilecard_top{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+.fourmprofilecard_top>img{
+    /* height:60px; */
+    object-fit: cover;
+}
+.fourmprofilecard_top_div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 100%;
+}
+.fourmprofilecard_top_div>p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.fourmprofilecard_top_div>span{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.fourmprofilecard_top_div>span>p{
+    margin-right: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.fourmprofilecard_top_div_span{
+    width: 100%;
+    display: flex;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    cursor: pointer;
+}
+.fourmprofilecard_top_div_span>p{
+    margin-left: 8px;
+    font-size: 16px !important;
+}
+.fourmprofilecard_middle{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.fourmprofilecard_middle>p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.fourmprofilecard_bottom{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.fourmprofilecard_bottom>button{
+    margin-right: 20px;
+    background-color: #B7002B;
+    color: #fff;
+    padding: 10px 12px;
+    font-size: 18px;
+    border: transparent;
+    outline: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}

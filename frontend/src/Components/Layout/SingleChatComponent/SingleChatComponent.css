@@ -1,0 +1,115 @@
+.singleChatComponent {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 80vh;
+}
+.singleChatComponent_send_message {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.singleChatComponent_send_message > span {
+  position: relative;
+  margin-right: 15px;
+}
+.singleChatComponent_send_message > span > p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #33c200;
+  border-radius: 50%;
+}
+.singleChatComponent_send_message > span > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.singleChatComponent_send_message > form {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleChatComponent_send_message > form > div {
+  border-radius: 20px;
+  background: rgba(217, 217, 217, 0.5);
+  padding: 0 5px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleChatComponent_send_message > form > div > textarea {
+  background-color: transparent;
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 90%;
+  border: none;
+  outline: none;
+  color: #fff;
+  resize: none;
+  min-height: 50px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.singleChatComponent_send_message > form > div > textarea::-webkit-scrollbar {
+  display: none;
+}
+.user_message {
+  position: absolute;
+  left: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+.self_message {
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user_message > span,
+.self_message > span {
+  position: relative;
+}
+.user_message > span > img,
+.self_message > span > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.user_message > div {
+  margin-left: 10px;
+}
+.self_message>div{
+    margin-right: 10px;
+}
+.user_message > div > p,.self_message>div>p {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 517px;
+  min-height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  color: #b7002b;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

@@ -1,0 +1,10 @@
+.marqueetext{
+    width: 100%;
+    background-color: #AF0029;
+    color: #fff;
+    padding: 10px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
